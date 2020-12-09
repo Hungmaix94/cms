@@ -8,7 +8,6 @@
  */
 
 define('LARAVEL_START', microtime(true));
-var_dump('vao day');
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
