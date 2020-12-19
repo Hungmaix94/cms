@@ -6,12 +6,13 @@
 
     <title>Laravel</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href={{url("/css/app.css")}} rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href={{url("css/app.css")}} rel="stylesheet">
 </head>
 <body>
-
-
+    <div id="app">
+        @yield("content")
+    </div>
 </body>
 </html>
 

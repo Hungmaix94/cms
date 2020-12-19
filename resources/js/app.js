@@ -17,7 +17,6 @@ if (dropdowns.length > 0) {
         el.addEventListener('click', function (event) {
             event.stopPropagation();
             el.classList.add('is-active');
-            console.log(el.classList)
         });
     });
 

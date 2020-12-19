@@ -1,1 +1,18 @@
+@import "variables";
 @import "~bulma/bulma.sass";
+
+html, body {
+  background: $body-bg;
+}
+
+.navbar-header-dark {
+  background: $body-bg;
+  color: $white;
+  .navbar-item, .navbar-link {
+    color: $white;
+  }
+}
+
+.logo-image {
+  width: fit-content;
+}

@@ -3,8 +3,20 @@
     General
   </p>
   <ul class="menu-list">
-    <li><a href={{ route('dashboard') }} class="{{ Request::is('dashboard') ? 'is-active' : '' }}">Dashboard</a></li>
-    <li><a href={{ route('employees.index') }} class="{{ Request::is('employees*') ? 'is-active' : '' }}">Employees</a></li>
+    <li>
+      <a href={{ route('dashboard') }}
+              {{--class="{{ Request::is('dashboard') ? 'is-active' : '' }}"--}}
+      >
+        Dashboard
+      </a>
+    </li>
+    <li>
+      <a href=""
+              {{--class="{{ Request::is('employees*') ? 'is-active' : '' }}"--}}
+      >
+        Employees
+      </a>
+    </li>
   </ul>
   <p class="menu-label">
     Administration

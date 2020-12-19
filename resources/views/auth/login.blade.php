@@ -1,4 +1,4 @@
-@include("layouts.guest")
+@include("layouts.app")
 @section('content')
     <div class="columns is-centered">
         <div class="column is-two-fifths">
