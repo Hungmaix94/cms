@@ -17,6 +17,8 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
-@yield("content")
+    <div id="app">
+        div.
+    </div>
 </body>
 </html>

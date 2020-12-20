@@ -11,8 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix
+    .js('resources/js/app.js', 'public/js')
+    .js('resources/js/dashboard.js', 'public/js')
+    .js('resources/js/helper.js', 'public/js')
     .sass('resources/scss/app.scss', 'public/css')
     .sass('resources/scss/login.scss', 'public/css');
 
 mix.copyDirectory('resources/images', 'public/images');
+mix.babel(['public/js/app.js'], 'public/js/app.js')
+    .babel('public/js/helper.js', 'public/js/helper.js')
+    .babel('public/js/dashboard.js', 'public/js/dashboard.js')

@@ -14,22 +14,18 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <!-- Scripts -->
+    <script src="{{ asset('js/helper.js') }}" defer></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
 @include('layouts.nav')
 
 <div class="container">
-    <div class="columns">
-        <div class="column is-3">
-            @include('layouts.sidebar')
-        </div>
-        <div class="column is-9">
-            @include('layouts.banner')
-            @yield('content')
-        </div>
+    <div class="section">
+        @include('layouts.banner')
     </div>
+    @yield('content')
 </div>
-<script src="{{ asset('js/app.js') }}"></script>
+@yield("footer")
 </body>
 </html>
