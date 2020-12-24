@@ -1,160 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99e2d174-433b-4322-b4c6-da9013609b6b" name="Default" comment="first commit cms">
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf.d2/default.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/nginx.proxy.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/datastax-php-driver/install.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/autom4te.cache/output.0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/autom4te.cache/requests" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/autom4te.cache/traces.0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/Benchmark.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/CallAnyFunction.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/ObjectsAsParameters.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/Pooling.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/SelectiveInheritance.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/Singleton.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/SocketServer.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.2.9/pthreads/examples/fetching-data-from-a-thread.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/config/opcache.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/config/php-cli.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/config/php.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/config/rdkafka.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/config/swoole.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/docker-php-entrypoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/docker-php-ext-configure" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/docker-php-ext-enable" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/docker-php-ext-install" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/docker-php-source" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/supervisord.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Console/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Exceptions/Handler.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/AuthenticatedSessionController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/ConfirmPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/ConfirmablePasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/EmailVerificationNotificationController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/EmailVerificationPromptController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/ForgotPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/LoginController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/NewPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/PasswordResetLinkController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/RegisterController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/RegisteredUserController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/ResetPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/VerificationController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Auth/VerifyEmailController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/Controller.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Controllers/HomeController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/Authenticate.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/EncryptCookies.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/PreventRequestsDuringMaintenance.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/TrimStrings.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/TrustHosts.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/TrustProxies.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Http/Requests/Auth/LoginRequest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Models/Page.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Models/Role.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Models/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Providers/AppServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Providers/BroadcastServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Providers/EventServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/app/Providers/RouteServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/bootstrap/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/bootstrap/cache/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/broadcasting.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/cache.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/cors.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/database.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/filesystems.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/hashing.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/logging.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/mail.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/queue.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/services.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/session.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/config/view.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/factories/UserFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/migrations/2020_12_06_003553_create_pages_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/migrations/2020_12_08_234506_create_roles_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/migrations/2020_12_08_234548_role_user_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/seeders/DatabaseSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/seeders/RoleTableSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/database/seeders/UserTableSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/js/dashboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/js/helper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/mix-manifest.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/public/web.config" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/lang/en/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/lang/en/pagination.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/lang/en/passwords.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/lang/en/validation.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/scss/app.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/scss/login.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/confirm-password.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/forgot-password.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/login.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/passwords/confirm.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/passwords/email.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/passwords/reset.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/register.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/reset-password.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/verify-email.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/auth/verify.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/home.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/app.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/banner.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/breadcrumb.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/guest.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/info-box.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/nav.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/layouts/sidebar.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/pages/dashboard.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/resources/views/pages/welcome.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/routes/api.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/routes/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/routes/channels.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/routes/console.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/routes/web.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/app/public/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/framework/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/framework/cache/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/framework/cache/data/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/framework/sessions/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/framework/testing/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/framework/views/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/storage/logs/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/CreatesApplication.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Feature/AuthenticationTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Feature/EmailVerificationTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Feature/ExampleTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Feature/PasswordConfirmationTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Feature/PasswordResetTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Feature/RegistrationTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/TestCase.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public_html/tests/Unit/ExampleTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/supervisor.d/queue-worker" />
+    <list default="true" id="99e2d174-433b-4322-b4c6-da9013609b6b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -233,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -550,7 +397,7 @@
       <workItem from="1608453663417" duration="6412000" />
       <workItem from="1608470600192" duration="237000" />
       <workItem from="1608471212950" duration="12989000" />
-      <workItem from="1608780537613" duration="16560000" />
+      <workItem from="1608780537613" duration="16603000" />
     </task>
     <task id="LOCAL-00001" summary="first commit cms&#10;&#10;(cherry picked from commit e59216d)">
       <created>1608457749011</created>
@@ -566,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1608787625686</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit cms">
+      <created>1608803571959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608803571959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46685000" />
+    <option name="totallyTimeSpent" value="46728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="990" extended-state="6" />
@@ -582,7 +436,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70979446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91051996" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.91051996" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19690502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,7 +831,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>

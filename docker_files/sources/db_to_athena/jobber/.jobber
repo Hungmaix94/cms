@@ -1,0 +1,5 @@
+[jobs]
+- name: BACKUP_DB_TO_S3
+  cmd: |
+    /var/lib/mysqldump.sh
+  time: '* */10 * * * *'

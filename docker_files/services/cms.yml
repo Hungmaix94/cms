@@ -1,0 +1,69 @@
+version: '3.5'
+networks:
+    default:
+        driver: bridge
+    cms:
+        external: true
+services:
+    cms_nginx:
+        restart: unless-stopped
+        build:
+          context: ../sources/nginx/
+        networks:
+            - ${NETWORK}
+        expose:
+            - 80
+        environment:
+            - "VIRTUAL_HOST=${HOST_CMS_API}"
+            - "VIRTUAL_PORT=80"
+            - "LETSENCRYPT_HOST=${HOST_CMS_API}"
+            - "LETSENCRYPT_EMAIL=phamhung.bk94@gmail.com"
+        volumes:
+            - ../../public_html/:/var/www/html
+            - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
+    cms_phpfpm:
+        restart: unless-stopped
+        build:
+          context: ../sources/php-fpm/7.4
+        deploy:
+             replicas: 1
+        expose:
+            - 9000
+        networks:
+            - ${NETWORK}
+        volumes:
+            - ../../public_html/:/var/www/html/
+            - ../../public_html/supervisor.d:/etc/supervisor/conf.d
+            - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
+        command:
+            - /bin/bash
+            - -c
+            - |
+#              /usr/bin/supervisord
+    cms_redis:
+        restart: unless-stopped
+        image: redis:4-alpine
+        networks:
+            - ${NETWORK}
+        volumes:
+            - cms_redis_data:/data
+            - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
+    cms_mariadb_master:
+            restart: unless-stopped
+            image: ${MARIADB_IMAGE}
+            networks:
+                - ${NETWORK}
+            environment:
+                MYSQL_USER: cms
+                MYSQL_PASSWORD: cms@123
+                MYSQL_DATABASE: cms
+                MYSQL_ROOT_PASSWORD: 123456
+            expose:
+                - 3306
+            ports:
+                - 33066:3306
+            volumes:
+                - ../../data/cms_backend/mysql/:/var/lib/mysql
+                - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
+volumes:
+    cms_redis_data:
