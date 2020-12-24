@@ -1,38 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/resources/js/dashboard.js" line="132" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/resources/js/dashboard.js" line="93" />
-    <bookmark url="file://$PROJECT_DIR$/webpack.mix.js" line="15" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="99e2d174-433b-4322-b4c6-da9013609b6b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Models/Page.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2020_12_06_003553_create_pages_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/database/seeders/RoleTableSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/database/seeders/UserTableSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/public_html/.editorconfig" />
+      <change beforePath="$PROJECT_DIR$/.env.bak" afterPath="$PROJECT_DIR$/public_html/.env.bak" />
+      <change beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/public_html/.env.example" />
+      <change beforePath="$PROJECT_DIR$/.env.example.bak" afterPath="$PROJECT_DIR$/public_html/.env.example.bak" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/public_html/.gitattributes" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/public_html/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
-      <change beforePath="$PROJECT_DIR$/app/Role.php" afterPath="$PROJECT_DIR$/app/Models/Role.php" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" afterPath="$PROJECT_DIR$/resources/scss/app.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/scss/login.scss" afterPath="$PROJECT_DIR$/resources/scss/login.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
+      <change beforePath="$PROJECT_DIR$/.styleci.yml" afterPath="$PROJECT_DIR$/public_html/.styleci.yml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmablePasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/EmailVerificationNotificationController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/EmailVerificationPromptController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/NewPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordResetLinkController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisteredUserController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerifyEmailController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Auth/LoginRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/artisan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/cors.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/hashing.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/logging.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/queue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_06_003553_create_pages_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_08_234506_create_roles_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_08_234548_role_user_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/RoleTableSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UserTableSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/login.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/confirm-password.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/breadcrumb.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/info-box.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/AuthenticationTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/EmailVerificationTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/PasswordConfirmationTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/PasswordResetTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,128 +159,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/nav.blade.php">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banner.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/banner.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popular_gamse.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scss/popular_gamse.scss">
+      <file leaf-file-name="cms.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker_files/services/cms.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="126">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker_files/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="72">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/dashboard.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding>
-                <marker date="1608478630694" expanded="true" signature="30:73" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="344:362" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="347:362" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="427:440" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="452:461" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="599:607" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="1466:1486" ph="..." />
-                <marker date="1608478630694" expanded="true" signature="1524:1548" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/dashboard.js">
+      <file leaf-file-name=".env.example" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker_files/.env.example">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-              <folding>
-                <marker date="1608484906151" expanded="true" signature="4172:5951" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4211:5950" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4256:4484" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4334:4457" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4531:5927" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4575:5455" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4632:4874" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4703:4832" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4933:5424" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="4999:5085" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="5151:5245" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="5303:5389" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="5501:5900" ph="..." />
-                <marker date="1608484906151" expanded="true" signature="6000:6063" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scss/dashboard.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scss/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scss/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,6 +224,8 @@
       <find>avatar</find>
       <find>helper.</find>
       <find>welcome</find>
+      <find>WWWGROUP</find>
+      <find>FORWARD_REDIS_PORT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,19 +265,21 @@
         <option value="$PROJECT_DIR$/resources/scss/popular_gamse.scss" />
         <option value="$PROJECT_DIR$/resources/views/layouts/banner.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/dashboard.js" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker_files/.env" />
+        <option value="$PROJECT_DIR$/docker_files/services/cms.yml" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/public_html/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -363,10 +393,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
     <option name="y" value="27" />
-    <option name="width" value="1280" />
-    <option name="height" value="1329" />
+    <option name="width" value="1920" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -390,60 +419,45 @@
         <subPane>
           <expand>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker_files" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker_files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker_files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker_files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zoneinfo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker_files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zoneinfo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Asia" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravelcms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelcms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public_html" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -458,15 +472,17 @@
     <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Models" />
-      <recent name="$PROJECT_DIR$/resources/views/pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker_files" />
       <recent name="$PROJECT_DIR$/resources/scss" />
       <recent name="$PROJECT_DIR$/resources/js" />
       <recent name="$PROJECT_DIR$/resources/views/layouts" />
       <recent name="$PROJECT_DIR$/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public_html" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/resources/views/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -499,6 +515,7 @@
       <workItem from="1608453663417" duration="6412000" />
       <workItem from="1608470600192" duration="237000" />
       <workItem from="1608471212950" duration="12989000" />
+      <workItem from="1608780537613" duration="3050000" />
     </task>
     <task id="LOCAL-00001" summary="first commit cms&#10;&#10;(cherry picked from commit e59216d)">
       <created>1608457749011</created>
@@ -511,19 +528,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30125000" />
+    <option name="totallyTimeSpent" value="33175000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="2560" height="1329" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7101201" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70979446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49142367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19490851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49093106" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19690502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942164" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -582,24 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/laravel-mix/src/Api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1880">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/laravel-mix/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/application-logo.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/components/auth-validation-errors.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/components/responsive-nav-link.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/components/label.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/components/dropdown-link.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/components/button.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/components/auth-card.blade.php" />
@@ -629,21 +628,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/public_html/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/dropdown.js" />
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -655,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="6679" column="0" lean-forward="false" selection-start-line="6679" selection-start-column="0" selection-end-line="6679" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,14 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <marker date="1608457322222" expanded="true" signature="9:22" ph="..." />
-            <marker date="1608457322222" expanded="true" signature="34:43" ph="..." />
-            <marker date="1608457322222" expanded="true" signature="219:236" ph="..." />
-            <marker date="1608457322222" expanded="true" signature="311:328" ph="..." />
-            <marker date="1608457322222" expanded="true" signature="431:450" ph="..." />
-            <marker date="1608457322222" expanded="true" signature="534:560" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#30#76#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,67 +690,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12122">
           <caret line="2678" column="9" lean-forward="false" selection-start-line="2678" selection-start-column="9" selection-end-line="2678" selection-end-column="9" />
-          <folding>
-            <marker date="1608477029423" expanded="true" signature="451370:451385" ph="{&quot;de-indent&quot;: &quot;^1.0.2&quot;...}" />
-            <marker date="1608477029423" expanded="true" signature="451370:451395" ph="{&quot;version&quot;: &quot;2.6.12&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/callapi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/callapi.js" />
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/guest.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <marker date="1608474359768" expanded="true" signature="30:73" ph="..." />
-            <marker date="1608474359768" expanded="true" signature="224:238" ph="..." />
-            <marker date="1608474359768" expanded="true" signature="257:288" ph="..." />
-            <marker date="1608474359768" expanded="true" signature="488:510" ph="..." />
-            <marker date="1608474359768" expanded="true" signature="556:576" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1608475884988" expanded="true" signature="31:79" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/helper.js" />
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <marker date="1608475892020" expanded="true" signature="1:228" ph="/** First, we will load all of this project's Javascript utilities and other ...*/" />
-            <marker date="1608475892020" expanded="true" signature="345:742" ph="{...}" />
-            <marker date="1608475892020" expanded="true" signature="384:645" ph="{...}" />
-            <marker date="1608475892020" expanded="true" signature="434:491" ph="{...}" />
-            <marker date="1608475892020" expanded="true" signature="546:637" ph="{...}" />
-            <marker date="1608475892020" expanded="true" signature="705:738" ph="{...}" />
-            <marker date="1608475892020" expanded="true" signature="770:861" ph="{...}" />
-            <marker date="1608475892020" expanded="true" signature="808:857" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
           <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="8445" column="4" lean-forward="false" selection-start-line="8445" selection-start-column="4" selection-end-line="8445" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="19900" column="4" lean-forward="false" selection-start-line="19900" selection-start-column="4" selection-end-line="19900" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,10 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-          <folding>
-            <marker date="1608474316083" expanded="true" signature="9:24" ph="..." />
-            <marker date="1608474316083" expanded="true" signature="35:44" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,18 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding>
-            <marker date="1608478792658" expanded="true" signature="30:73" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="224:238" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="257:288" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="488:510" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="556:579" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="618:638" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="682:695" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="765:781" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="805:814" ph="..." />
-            <marker date="1608478792658" expanded="true" signature="830:838" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,22 +760,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss" />
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss" />
     <entry file="file://$PROJECT_DIR$/resources/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -875,10 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,37 +782,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scss/dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scss/dashboard.scss" />
     <entry file="file://$PROJECT_DIR$/resources/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="720">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scss/popular_gamse.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scss/popular_gamse.scss" />
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/banner.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="1872">
           <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
@@ -924,49 +805,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="252">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <marker date="1608478630694" expanded="true" signature="30:73" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="344:362" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="347:362" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="427:440" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="452:461" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="599:607" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="1466:1486" ph="..." />
-            <marker date="1608478630694" expanded="true" signature="1524:1548" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/dashboard.js">
+    <entry file="file://$PROJECT_DIR$/resources/js/dashboard.js" />
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker_files/sources/php-fpm/7.4/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker_files/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding>
-            <marker date="1608484906151" expanded="true" signature="4172:5951" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4211:5950" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4256:4484" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4334:4457" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4531:5927" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4575:5455" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4632:4874" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4703:4832" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4933:5424" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="4999:5085" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="5151:5245" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="5303:5389" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="5501:5900" ph="..." />
-            <marker date="1608484906151" expanded="true" signature="6000:6063" ph="..." />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker_files/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker_files/sources/zoneinfo/Asia/Ho_Chi_Minh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker_files/services/cms.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
