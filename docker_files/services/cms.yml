@@ -33,13 +33,13 @@ services:
             - ${NETWORK}
         volumes:
             - ../../public_html/:/var/www/html/
-            - ../../public_html/supervisor.d:/etc/supervisor/conf.d
+            - ../../supervisor.d:/etc/supervisor/conf.d
             - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
         command:
             - /bin/bash
             - -c
             - |
-#              /usr/bin/supervisord
+              /usr/bin/supervisord
     cms_redis:
         restart: unless-stopped
         image: redis:4-alpine
