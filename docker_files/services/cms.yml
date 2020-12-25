@@ -8,7 +8,7 @@ services:
     cms_nginx:
         restart: unless-stopped
         build:
-          context: ../sources/nginx/
+          context: ../sources/nginx
         networks:
             - ${NETWORK}
         expose:
@@ -19,7 +19,7 @@ services:
             - "LETSENCRYPT_HOST=${HOST_CMS_API}"
             - "LETSENCRYPT_EMAIL=phamhung.bk94@gmail.com"
         volumes:
-            - ../../public_html/:/var/www/html
+            - ../../../cms:/var/www/html
             - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
     cms_phpfpm:
         restart: unless-stopped
@@ -32,7 +32,7 @@ services:
         networks:
             - ${NETWORK}
         volumes:
-            - ../../public_html/:/var/www/html/
+            - ../../../cms:/var/www/html
             - ../../supervisor.d:/etc/supervisor/conf.d
             - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
         command:
