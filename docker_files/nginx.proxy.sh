@@ -9,6 +9,8 @@ docker run --detach \
     --volume /etc/nginx/vhost.d \
     --volume /usr/share/nginx/html \
     --volume /var/run/docker.sock:/tmp/docker.sock:ro \
+    --volume /etc/acme.sh \
+    --env "DEFAULT_EMAIL=phamhung.bk94@gmail.com" \
     jwilder/nginx-proxy
 
 docker run --detach \

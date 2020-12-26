@@ -1,0 +1,19 @@
+version: '3'
+networks:
+    default:
+        driver: bridge
+    ihr:
+        external: true
+services:
+    proxy:
+        restart: unless-stopped
+        image: jwilder/nginx-proxy
+        networks:
+            - ihr
+        ports:
+            - "80:80"
+        volumes:
+            - ../sources/htpasswd:/etc/nginx/htpasswd
+            - /var/run/docker.sock:/tmp/docker.sock
+            - ../sources/nginx-proxy/my_nginx_proxy.conf:/etc/nginx/conf.d/my_proxy.conf:ro
+        container_name: proxy
