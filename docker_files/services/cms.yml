@@ -35,11 +35,6 @@ services:
             - ../../../cms:/var/www/html
             - ../../supervisor.d:/etc/supervisor/conf.d
             - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
-        command:
-            - /bin/bash
-            - -c
-            - |
-              /usr/bin/supervisord
     cms_redis:
         restart: unless-stopped
         image: redis:4-alpine

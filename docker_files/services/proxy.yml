@@ -2,14 +2,14 @@ version: '3'
 networks:
     default:
         driver: bridge
-    ihr:
+    cms:
         external: true
 services:
     proxy:
         restart: unless-stopped
         image: jwilder/nginx-proxy
         networks:
-            - ihr
+            - cms
         ports:
             - "80:80"
         volumes:

@@ -14,3 +14,4 @@ fi
 #docker-compose --compatibility -f services/cv_fresher.yml up -d
 docker-compose --compatibility -f services/cms.yml up -d
 docker-compose --compatibility -f services/nginx-proxy.yml up -d
+docker-compose --compatibility -f services/nginx-proxy.yml up -d
