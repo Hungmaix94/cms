@@ -21,4 +21,4 @@ mix
 mix.copyDirectory('resources/images', 'public/images');
 mix.babel(['public/js/app.js'], 'public/js/app.js')
     .babel('public/js/helper.js', 'public/js/helper.js')
-    .babel('public/js/dashboard.js', 'public/js/dashboard.js')
+    .babel('public/js/dashboard.js', 'public/js/dashboard.js');

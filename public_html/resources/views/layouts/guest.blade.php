@@ -12,13 +12,16 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
     <div id="app">
-        div.
+       <div class="login-form">
+           @yield('content')
+       </div>
     </div>
 </body>
 </html>

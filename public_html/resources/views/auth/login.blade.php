@@ -12,27 +12,37 @@
 
 
                 <div class="card-content">
-                    <form method="POST" action="https://admin-one-laravel.justboil.me/login">
-                        <input type="hidden" name="_token" value="OfFpjWYQH78ok5zwVlTgtH2hSRSEdPqB6SVbPjed">
+                    <form method="POST" action="{{ url('/login?abc=343434') }}">
+                        {{ csrf_field() }}
                         <div class="field">
-                            <label class="label" for="email">E-Mail Address</label>
-                            <div class="control">
-                                <input id="email" type="email" class="input " name="email" value="" required=""
-                                       autocomplete="email" autofocus="">
+                            <label class="label" for="username">Username</label>
+                            <div class="control {{ $errors->has('username') ? ' has-error' : '' }} ">
+                                <input id="username" type="text" class="input " name="username" value="" required=""
+                                       autocomplete="username" autofocus="">
+                                @if ($errors->has('username'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('username') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                         </div>
 
                         <div class="field">
                             <label class="label" for="password">Password</label>
-                            <div class="control">
+                            <div class="control {{ $errors->has('password') ? ' has-error' : '' }}">
                                 <input id="password" type="password" class="input " name="password" required=""
                                        autocomplete="current-password" autofocus="">
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                         </div>
 
                         <div class="control">
                             <label tabindex="0" class="b-checkbox checkbox is-thin">
-                                <input type="checkbox" value="false" name="remember" id="remember">
+                                <input type="checkbox" value="false" name="remember" id="remember" {{ old('remember') ? 'checked' : ''}}>
                                 <span class="check is-black"></span>
                                 <span class="control-label">Remember Me</span>
                             </label>
