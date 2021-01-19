@@ -43,6 +43,13 @@ services:
         volumes:
             - cms_redis_data:/data
             - ../sources/zoneinfo/Asia/Ho_Chi_Minh:/etc/localtime:ro
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - 8080:8080
+        networks:
+            - ${NETWORK}
     cms_mariadb_master:
             restart: unless-stopped
             image: ${MARIADB_IMAGE}

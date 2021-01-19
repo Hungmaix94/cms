@@ -43,6 +43,11 @@ services:
             - 'sailmysql:/var/lib/mysql'
         networks:
             - sail
+    adminer:
+       image: adminer
+       restart: always
+       ports:
+            - 8080:8080
     redis:
         image: 'redis:alpine'
         ports:
@@ -51,12 +56,7 @@ services:
             - 'sailredis:/data'
         networks:
             - sail
-    # memcached:
-    #     image: 'memcached:alpine'
-    #     ports:
-    #         - '11211:11211'
-    #     networks:
-    #         - sail
+
     mailhog:
         image: 'mailhog/mailhog:latest'
         ports:
