@@ -1,5 +1,5 @@
 <?php
-
+namespace Database\Seeders;
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -20,7 +20,7 @@ class UserTableSeeder extends Seeder
 
         $admin = User::create([
             'name'=> "SuperAdmin",
-            'email' => "admin@superadmin.com",
+            'email' => "phamhung.bk94@gmail.com",
             'password' => bcrypt("123456"),
         ]);
         $joe = User::create([

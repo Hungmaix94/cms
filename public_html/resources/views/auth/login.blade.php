@@ -12,7 +12,7 @@
 
 
                 <div class="card-content">
-                    <form method="POST" action="{{ url('/login?abc=343434') }}">
+                    <form method="POST" action="{{ route('/login?abc=343434') }}">
                         {{ csrf_field() }}
                         <div class="field">
                             <label class="label" for="username">Username</label>
