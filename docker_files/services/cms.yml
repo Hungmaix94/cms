@@ -54,7 +54,7 @@ services:
     laravel_cms_phpfpm:
         restart: unless-stopped
         build:
-          context: ../sources/php-fpm/7.2.9
+          context: ../sources/php-fpm/7.4
         deploy:
              replicas: 1
         expose:
